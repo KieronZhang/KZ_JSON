@@ -13,8 +13,21 @@
 		AE8C4EBC1E0C3153001E2050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8C4EBA1E0C3153001E2050 /* Main.storyboard */; };
 		AE8C4EBE1E0C3153001E2050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8C4EBD1E0C3153001E2050 /* Assets.xcassets */; };
 		AE8C4EC11E0C3153001E2050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8C4EBF1E0C3153001E2050 /* LaunchScreen.storyboard */; };
-		AEDC0FD81FC1D41700752728 /* KZ_JSONFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDC0FD71FC1D41700752728 /* KZ_JSONFramework.framework */; };
+		AEA5EBF11FC2AB0D003D7BD1 /* KZ_JSONFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EBF01FC2AB0D003D7BD1 /* KZ_JSONFramework.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEDC0FC81FC1D39B00752728 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AE8C4EAE1E0C3153001E2050 /* KZ_JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_JSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,7 +40,7 @@
 		AE8C4EBD1E0C3153001E2050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE8C4EC01E0C3153001E2050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE8C4EC21E0C3153001E2050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEDC0FD71FC1D41700752728 /* KZ_JSONFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_JSONFramework.framework; sourceTree = "<group>"; };
+		AEA5EBF01FC2AB0D003D7BD1 /* KZ_JSONFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_JSONFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEDC0FD81FC1D41700752728 /* KZ_JSONFramework.framework in Frameworks */,
+				AEA5EBF11FC2AB0D003D7BD1 /* KZ_JSONFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +78,7 @@
 				AE8C4EB51E0C3153001E2050 /* AppDelegate.m */,
 				AE8C4EB71E0C3153001E2050 /* ViewController.h */,
 				AE8C4EB81E0C3153001E2050 /* ViewController.m */,
-				AEA792A21FBECE3800A140E7 /* JSON */,
+				AEA5EBEF1FC2AB0D003D7BD1 /* JSON */,
 				AE8C4EBA1E0C3153001E2050 /* Main.storyboard */,
 				AE8C4EBD1E0C3153001E2050 /* Assets.xcassets */,
 				AE8C4EBF1E0C3153001E2050 /* LaunchScreen.storyboard */,
@@ -83,10 +96,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AEA792A21FBECE3800A140E7 /* JSON */ = {
+		AEA5EBEF1FC2AB0D003D7BD1 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				AEDC0FD71FC1D41700752728 /* KZ_JSONFramework.framework */,
+				AEA5EBF01FC2AB0D003D7BD1 /* KZ_JSONFramework.framework */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -101,6 +114,7 @@
 				AE8C4EAA1E0C3153001E2050 /* Sources */,
 				AE8C4EAB1E0C3153001E2050 /* Frameworks */,
 				AE8C4EAC1E0C3153001E2050 /* Resources */,
+				AEDC0FC81FC1D39B00752728 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,6 +312,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -319,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
