@@ -13,7 +13,7 @@
 		AE8C4EBC1E0C3153001E2050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8C4EBA1E0C3153001E2050 /* Main.storyboard */; };
 		AE8C4EBE1E0C3153001E2050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8C4EBD1E0C3153001E2050 /* Assets.xcassets */; };
 		AE8C4EC11E0C3153001E2050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8C4EBF1E0C3153001E2050 /* LaunchScreen.storyboard */; };
-		AE9A25E61FC5D83900668BA7 /* KZ_JSONFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A25E51FC5D83900668BA7 /* KZ_JSONFramework.framework */; };
+		AE9A25EA1FC5DCDF00668BA7 /* KZ_JSONFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A25E91FC5DCDF00668BA7 /* KZ_JSONFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,7 +40,7 @@
 		AE8C4EBD1E0C3153001E2050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE8C4EC01E0C3153001E2050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE8C4EC21E0C3153001E2050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE9A25E51FC5D83900668BA7 /* KZ_JSONFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_JSONFramework.framework; sourceTree = "<group>"; };
+		AE9A25E91FC5DCDF00668BA7 /* KZ_JSONFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_JSONFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE9A25E61FC5D83900668BA7 /* KZ_JSONFramework.framework in Frameworks */,
+				AE9A25EA1FC5DCDF00668BA7 /* KZ_JSONFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 		AEA5EBEF1FC2AB0D003D7BD1 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				AE9A25E51FC5D83900668BA7 /* KZ_JSONFramework.framework */,
+				AE9A25E91FC5DCDF00668BA7 /* KZ_JSONFramework.framework */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
