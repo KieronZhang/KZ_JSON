@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name = 'KZ_JSON'
-    s.version = '0.1.9'
+    s.version = '0.2.1'
     s.summary = 'iOS & MacOS JSON.'
     s.homepage = 'https://github.com/KieronZhang/KZ_JSON'
     s.license = {:type => 'MIT', :file => 'LICENSE'}
@@ -16,12 +16,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
     s.osx.deployment_target = '10.10'
 
-    s.subspec 'iOS' do |ss|
-        ss.vendored_frameworks = 'KZ_JSON/KZ_JSON_iOS.framework'
-    end
-
-    s.subspec 'macOS' do |ss|
-        ss.vendored_frameworks = 'KZ_JSON/KZ_JSON_macOS.framework'
-    end
+    s.ios.vendored_frameworks = 'KZ_JSON/KZ_JSON_iOS.framework'
+    s.osx.vendored_frameworks = 'KZ_JSON/KZ_JSON_macOS.framework'
 
 end
