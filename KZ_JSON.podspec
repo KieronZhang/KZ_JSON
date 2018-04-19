@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
     s.ios.deployment_target = '8.0'
     s.ios.vendored_frameworks = 'KZ_JSON/KZ_JSON_iOS.framework'
-
+    
     s.osx.deployment_target = '10.10'
     s.osx.vendored_frameworks = 'KZ_JSON/KZ_JSON_macOS.framework'
 
