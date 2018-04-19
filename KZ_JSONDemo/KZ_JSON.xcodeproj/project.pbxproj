@@ -7,58 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE8C4EB31E0C3153001E2050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8C4EB21E0C3153001E2050 /* main.m */; };
-		AE8C4EB61E0C3153001E2050 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8C4EB51E0C3153001E2050 /* AppDelegate.m */; };
-		AE8C4EB91E0C3153001E2050 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8C4EB81E0C3153001E2050 /* ViewController.m */; };
-		AE8C4EBC1E0C3153001E2050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8C4EBA1E0C3153001E2050 /* Main.storyboard */; };
-		AE8C4EBE1E0C3153001E2050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8C4EBD1E0C3153001E2050 /* Assets.xcassets */; };
-		AE8C4EC11E0C3153001E2050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8C4EBF1E0C3153001E2050 /* LaunchScreen.storyboard */; };
-		AE9A25F61FC5ED7F00668BA7 /* KZ_JSONFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A25F51FC5ED7F00668BA7 /* KZ_JSONFramework.framework */; };
+		AE1D29262085D8A0007A0799 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D29252085D8A0007A0799 /* AppDelegate.m */; };
+		AE1D29292085D8A0007A0799 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D29282085D8A0007A0799 /* ViewController.m */; };
+		AE1D292C2085D8A0007A0799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1D292A2085D8A0007A0799 /* Main.storyboard */; };
+		AE1D292E2085D8A1007A0799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1D292D2085D8A1007A0799 /* Assets.xcassets */; };
+		AE1D29312085D8A1007A0799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1D292F2085D8A1007A0799 /* LaunchScreen.storyboard */; };
+		AE1D29342085D8A1007A0799 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D29332085D8A1007A0799 /* main.m */; };
+		AE1D293A2085D8B7007A0799 /* KZ_JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1D29392085D8B7007A0799 /* KZ_JSON.framework */; };
+		AE1D295D2085DB3A007A0799 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D295C2085DB3A007A0799 /* AppDelegate.m */; };
+		AE1D29602085DB3A007A0799 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D295F2085DB3A007A0799 /* ViewController.m */; };
+		AE1D29622085DB3B007A0799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1D29612085DB3B007A0799 /* Assets.xcassets */; };
+		AE1D29652085DB3B007A0799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1D29632085DB3B007A0799 /* Main.storyboard */; };
+		AE1D29682085DB3B007A0799 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D29672085DB3B007A0799 /* main.m */; };
+		AE1D296F2085DB67007A0799 /* KZ_JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1D296E2085DB67007A0799 /* KZ_JSON.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		AEDC0FC81FC1D39B00752728 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		AE8C4EAE1E0C3153001E2050 /* KZ_JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_JSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE8C4EB21E0C3153001E2050 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE8C4EB41E0C3153001E2050 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AE8C4EB51E0C3153001E2050 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE8C4EB71E0C3153001E2050 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE8C4EB81E0C3153001E2050 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AE8C4EBB1E0C3153001E2050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE8C4EBD1E0C3153001E2050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE8C4EC01E0C3153001E2050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AE8C4EC21E0C3153001E2050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE9A25F51FC5ED7F00668BA7 /* KZ_JSONFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_JSONFramework.framework; sourceTree = "<group>"; };
+		AE1D29222085D8A0007A0799 /* KZ_JSON_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_JSON_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1D29242085D8A0007A0799 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE1D29252085D8A0007A0799 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE1D29272085D8A0007A0799 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE1D29282085D8A0007A0799 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE1D292B2085D8A0007A0799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE1D292D2085D8A1007A0799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE1D29302085D8A1007A0799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE1D29322085D8A1007A0799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1D29332085D8A1007A0799 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE1D29392085D8B7007A0799 /* KZ_JSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_JSON.framework; sourceTree = "<group>"; };
+		AE1D29592085DB3A007A0799 /* KZ_JSON_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_JSON_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1D295B2085DB3A007A0799 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE1D295C2085DB3A007A0799 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE1D295E2085DB3A007A0799 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE1D295F2085DB3A007A0799 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE1D29612085DB3B007A0799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE1D29642085DB3B007A0799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE1D29662085DB3B007A0799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1D29672085DB3B007A0799 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE1D29692085DB3B007A0799 /* KZ_JSON_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZ_JSON_macOS.entitlements; sourceTree = "<group>"; };
+		AE1D296E2085DB67007A0799 /* KZ_JSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_JSON.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AE8C4EAB1E0C3153001E2050 /* Frameworks */ = {
+		AE1D291F2085D8A0007A0799 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE9A25F61FC5ED7F00668BA7 /* KZ_JSONFramework.framework in Frameworks */,
+				AE1D293A2085D8B7007A0799 /* KZ_JSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1D29562085DB3A007A0799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1D296F2085DB67007A0799 /* KZ_JSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE1D29232085D8A0007A0799 /* KZ_JSON_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D29242085D8A0007A0799 /* AppDelegate.h */,
+				AE1D29252085D8A0007A0799 /* AppDelegate.m */,
+				AE1D29272085D8A0007A0799 /* ViewController.h */,
+				AE1D29282085D8A0007A0799 /* ViewController.m */,
+				AE1D29382085D8B7007A0799 /* JSON */,
+				AE1D292A2085D8A0007A0799 /* Main.storyboard */,
+				AE1D292D2085D8A1007A0799 /* Assets.xcassets */,
+				AE1D292F2085D8A1007A0799 /* LaunchScreen.storyboard */,
+				AE1D29322085D8A1007A0799 /* Info.plist */,
+				AE1D29332085D8A1007A0799 /* main.m */,
+			);
+			path = KZ_JSON_iOS;
+			sourceTree = "<group>";
+		};
+		AE1D29382085D8B7007A0799 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D29392085D8B7007A0799 /* KZ_JSON.framework */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		AE1D295A2085DB3A007A0799 /* KZ_JSON_macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D295B2085DB3A007A0799 /* AppDelegate.h */,
+				AE1D295C2085DB3A007A0799 /* AppDelegate.m */,
+				AE1D295E2085DB3A007A0799 /* ViewController.h */,
+				AE1D295F2085DB3A007A0799 /* ViewController.m */,
+				AE1D296D2085DB67007A0799 /* JSON */,
+				AE1D29612085DB3B007A0799 /* Assets.xcassets */,
+				AE1D29632085DB3B007A0799 /* Main.storyboard */,
+				AE1D29662085DB3B007A0799 /* Info.plist */,
+				AE1D29672085DB3B007A0799 /* main.m */,
+				AE1D29692085DB3B007A0799 /* KZ_JSON_macOS.entitlements */,
+			);
+			path = KZ_JSON_macOS;
+			sourceTree = "<group>";
+		};
+		AE1D296D2085DB67007A0799 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D296E2085DB67007A0799 /* KZ_JSON.framework */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		AE8C4EA51E0C3152001E2050 = {
 			isa = PBXGroup;
 			children = (
-				AE8C4EB01E0C3153001E2050 /* KZ_JSON */,
+				AE1D29232085D8A0007A0799 /* KZ_JSON_iOS */,
+				AE1D295A2085DB3A007A0799 /* KZ_JSON_macOS */,
 				AE8C4EAF1E0C3153001E2050 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,63 +129,47 @@
 		AE8C4EAF1E0C3153001E2050 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE8C4EAE1E0C3153001E2050 /* KZ_JSON.app */,
+				AE1D29222085D8A0007A0799 /* KZ_JSON_iOS.app */,
+				AE1D29592085DB3A007A0799 /* KZ_JSON_macOS.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AE8C4EB01E0C3153001E2050 /* KZ_JSON */ = {
-			isa = PBXGroup;
-			children = (
-				AE8C4EB41E0C3153001E2050 /* AppDelegate.h */,
-				AE8C4EB51E0C3153001E2050 /* AppDelegate.m */,
-				AE8C4EB71E0C3153001E2050 /* ViewController.h */,
-				AE8C4EB81E0C3153001E2050 /* ViewController.m */,
-				AEA5EBEF1FC2AB0D003D7BD1 /* JSON */,
-				AE8C4EBA1E0C3153001E2050 /* Main.storyboard */,
-				AE8C4EBD1E0C3153001E2050 /* Assets.xcassets */,
-				AE8C4EBF1E0C3153001E2050 /* LaunchScreen.storyboard */,
-				AE8C4EC21E0C3153001E2050 /* Info.plist */,
-				AE8C4EB11E0C3153001E2050 /* Supporting Files */,
-			);
-			path = KZ_JSON;
-			sourceTree = "<group>";
-		};
-		AE8C4EB11E0C3153001E2050 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AE8C4EB21E0C3153001E2050 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AEA5EBEF1FC2AB0D003D7BD1 /* JSON */ = {
-			isa = PBXGroup;
-			children = (
-				AE9A25F51FC5ED7F00668BA7 /* KZ_JSONFramework.framework */,
-			);
-			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE8C4EAD1E0C3153001E2050 /* KZ_JSON */ = {
+		AE1D29212085D8A0007A0799 /* KZ_JSON_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE8C4EDB1E0C3153001E2050 /* Build configuration list for PBXNativeTarget "KZ_JSON" */;
+			buildConfigurationList = AE1D29372085D8A1007A0799 /* Build configuration list for PBXNativeTarget "KZ_JSON_iOS" */;
 			buildPhases = (
-				AE8C4EAA1E0C3153001E2050 /* Sources */,
-				AE8C4EAB1E0C3153001E2050 /* Frameworks */,
-				AE8C4EAC1E0C3153001E2050 /* Resources */,
-				AEDC0FC81FC1D39B00752728 /* Embed Frameworks */,
+				AE1D291E2085D8A0007A0799 /* Sources */,
+				AE1D291F2085D8A0007A0799 /* Frameworks */,
+				AE1D29202085D8A0007A0799 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KZ_JSON;
-			productName = KZ_JSON;
-			productReference = AE8C4EAE1E0C3153001E2050 /* KZ_JSON.app */;
+			name = KZ_JSON_iOS;
+			productName = KZ_JSON_iOS;
+			productReference = AE1D29222085D8A0007A0799 /* KZ_JSON_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE1D29582085DB3A007A0799 /* KZ_JSON_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1D296A2085DB3B007A0799 /* Build configuration list for PBXNativeTarget "KZ_JSON_macOS" */;
+			buildPhases = (
+				AE1D29552085DB3A007A0799 /* Sources */,
+				AE1D29562085DB3A007A0799 /* Frameworks */,
+				AE1D29572085DB3A007A0799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZ_JSON_macOS;
+			productName = KZ_JSON_macOS;
+			productReference = AE1D29592085DB3A007A0799 /* KZ_JSON_macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,11 +178,16 @@
 		AE8C4EA61E0C3152001E2050 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Kieron Zhang";
 				TargetAttributes = {
-					AE8C4EAD1E0C3153001E2050 = {
-						CreatedOnToolsVersion = 8.2;
+					AE1D29212085D8A0007A0799 = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = TGTFTDLM8G;
+						ProvisioningStyle = Automatic;
+					};
+					AE1D29582085DB3A007A0799 = {
+						CreatedOnToolsVersion = 9.3;
 						DevelopmentTeam = TGTFTDLM8G;
 						ProvisioningStyle = Automatic;
 					};
@@ -154,57 +206,199 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE8C4EAD1E0C3153001E2050 /* KZ_JSON */,
+				AE1D29212085D8A0007A0799 /* KZ_JSON_iOS */,
+				AE1D29582085DB3A007A0799 /* KZ_JSON_macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AE8C4EAC1E0C3153001E2050 /* Resources */ = {
+		AE1D29202085D8A0007A0799 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE8C4EC11E0C3153001E2050 /* LaunchScreen.storyboard in Resources */,
-				AE8C4EBE1E0C3153001E2050 /* Assets.xcassets in Resources */,
-				AE8C4EBC1E0C3153001E2050 /* Main.storyboard in Resources */,
+				AE1D29312085D8A1007A0799 /* LaunchScreen.storyboard in Resources */,
+				AE1D292E2085D8A1007A0799 /* Assets.xcassets in Resources */,
+				AE1D292C2085D8A0007A0799 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1D29572085DB3A007A0799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1D29622085DB3B007A0799 /* Assets.xcassets in Resources */,
+				AE1D29652085DB3B007A0799 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AE8C4EAA1E0C3153001E2050 /* Sources */ = {
+		AE1D291E2085D8A0007A0799 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE8C4EB91E0C3153001E2050 /* ViewController.m in Sources */,
-				AE8C4EB61E0C3153001E2050 /* AppDelegate.m in Sources */,
-				AE8C4EB31E0C3153001E2050 /* main.m in Sources */,
+				AE1D29292085D8A0007A0799 /* ViewController.m in Sources */,
+				AE1D29342085D8A1007A0799 /* main.m in Sources */,
+				AE1D29262085D8A0007A0799 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1D29552085DB3A007A0799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1D29602085DB3A007A0799 /* ViewController.m in Sources */,
+				AE1D29682085DB3B007A0799 /* main.m in Sources */,
+				AE1D295D2085DB3A007A0799 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE8C4EBA1E0C3153001E2050 /* Main.storyboard */ = {
+		AE1D292A2085D8A0007A0799 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE8C4EBB1E0C3153001E2050 /* Base */,
+				AE1D292B2085D8A0007A0799 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AE8C4EBF1E0C3153001E2050 /* LaunchScreen.storyboard */ = {
+		AE1D292F2085D8A1007A0799 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE8C4EC01E0C3153001E2050 /* Base */,
+				AE1D29302085D8A1007A0799 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AE1D29632085DB3B007A0799 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1D29642085DB3B007A0799 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AE1D29352085D8A1007A0799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_JSON_iOS/JSON",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KZ_JSON_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-JSON-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AE1D29362085D8A1007A0799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_JSON_iOS/JSON",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KZ_JSON_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-JSON-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AE1D296B2085DB3B007A0799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = KZ_JSON_macOS/KZ_JSON_macOS.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_JSON_macOS/JSON",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KZ_JSON_macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-JSON-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AE1D296C2085DB3B007A0799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = KZ_JSON_macOS/KZ_JSON_macOS.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_JSON_macOS/JSON",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KZ_JSON_macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-JSON-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		AE8C4ED91E0C3153001E2050 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -218,6 +412,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -225,6 +420,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -272,6 +468,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -279,6 +476,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -307,67 +505,32 @@
 			};
 			name = Release;
 		};
-		AE8C4EDC1E0C3153001E2050 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = TGTFTDLM8G;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/KZ_JSON",
-					"$(PROJECT_DIR)/KZ_JSON/JSON",
-				);
-				INFOPLIST_FILE = KZ_JSON/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.JSON;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		AE8C4EDD1E0C3153001E2050 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = TGTFTDLM8G;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/KZ_JSON",
-					"$(PROJECT_DIR)/KZ_JSON/JSON",
-				);
-				INFOPLIST_FILE = KZ_JSON/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.JSON;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AE1D29372085D8A1007A0799 /* Build configuration list for PBXNativeTarget "KZ_JSON_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1D29352085D8A1007A0799 /* Debug */,
+				AE1D29362085D8A1007A0799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1D296A2085DB3B007A0799 /* Build configuration list for PBXNativeTarget "KZ_JSON_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1D296B2085DB3B007A0799 /* Debug */,
+				AE1D296C2085DB3B007A0799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AE8C4EA91E0C3153001E2050 /* Build configuration list for PBXProject "KZ_JSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE8C4ED91E0C3153001E2050 /* Debug */,
 				AE8C4EDA1E0C3153001E2050 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE8C4EDB1E0C3153001E2050 /* Build configuration list for PBXNativeTarget "KZ_JSON" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE8C4EDC1E0C3153001E2050 /* Debug */,
-				AE8C4EDD1E0C3153001E2050 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
