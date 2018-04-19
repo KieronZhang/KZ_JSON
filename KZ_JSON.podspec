@@ -14,12 +14,12 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
     s.subspec 'iOS' do |ss|
-        ss.ios.deployment_target = '10.10'
+        ss.ios.deployment_target = '8.0'
         ss.vendored_frameworks = 'KZ_JSON/KZ_JSON_iOS.framework'
     end
 
     s.subspec 'macOS' do |ss|
-        ss.osx.deployment_target = '8.0'
+        ss.osx.deployment_target = '10.10'
         ss.vendored_frameworks = 'KZ_JSON/KZ_JSON_macOS.framework'
     end
 
