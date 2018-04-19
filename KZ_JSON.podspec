@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name = 'KZ_JSON'
-    s.version = '0.1.7'
+    s.version = '0.1.9'
     s.summary = 'iOS & MacOS JSON.'
     s.homepage = 'https://github.com/KieronZhang/KZ_JSON'
     s.license = {:type => 'MIT', :file => 'LICENSE'}
