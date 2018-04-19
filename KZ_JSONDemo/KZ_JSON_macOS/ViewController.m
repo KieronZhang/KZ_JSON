@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <KZ_JSON/NSObject+KZ_JSON.h>
+#import <KZ_JSON_macOS/NSObject+KZ_JSON.h>
 
 @implementation ViewController
 

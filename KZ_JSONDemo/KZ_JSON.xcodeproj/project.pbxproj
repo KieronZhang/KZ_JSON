@@ -13,14 +13,27 @@
 		AE1D292E2085D8A1007A0799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1D292D2085D8A1007A0799 /* Assets.xcassets */; };
 		AE1D29312085D8A1007A0799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1D292F2085D8A1007A0799 /* LaunchScreen.storyboard */; };
 		AE1D29342085D8A1007A0799 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D29332085D8A1007A0799 /* main.m */; };
-		AE1D293A2085D8B7007A0799 /* KZ_JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1D29392085D8B7007A0799 /* KZ_JSON.framework */; };
 		AE1D295D2085DB3A007A0799 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D295C2085DB3A007A0799 /* AppDelegate.m */; };
 		AE1D29602085DB3A007A0799 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D295F2085DB3A007A0799 /* ViewController.m */; };
 		AE1D29622085DB3B007A0799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1D29612085DB3B007A0799 /* Assets.xcassets */; };
 		AE1D29652085DB3B007A0799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1D29632085DB3B007A0799 /* Main.storyboard */; };
 		AE1D29682085DB3B007A0799 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1D29672085DB3B007A0799 /* main.m */; };
-		AE1D296F2085DB67007A0799 /* KZ_JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1D296E2085DB67007A0799 /* KZ_JSON.framework */; };
+		AEE6755F2088B6AD00D34367 /* KZ_JSON_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE6755E2088B6AD00D34367 /* KZ_JSON_iOS.framework */; };
+		AEE675612088B6BE00D34367 /* KZ_JSON_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE675602088B6BE00D34367 /* KZ_JSON_macOS.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEE675552088B49200D34367 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AE1D29222085D8A0007A0799 /* KZ_JSON_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_JSON_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,7 +46,6 @@
 		AE1D29302085D8A1007A0799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE1D29322085D8A1007A0799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE1D29332085D8A1007A0799 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE1D29392085D8B7007A0799 /* KZ_JSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_JSON.framework; sourceTree = "<group>"; };
 		AE1D29592085DB3A007A0799 /* KZ_JSON_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_JSON_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1D295B2085DB3A007A0799 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE1D295C2085DB3A007A0799 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,7 +56,8 @@
 		AE1D29662085DB3B007A0799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE1D29672085DB3B007A0799 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE1D29692085DB3B007A0799 /* KZ_JSON_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZ_JSON_macOS.entitlements; sourceTree = "<group>"; };
-		AE1D296E2085DB67007A0799 /* KZ_JSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_JSON.framework; sourceTree = "<group>"; };
+		AEE6755E2088B6AD00D34367 /* KZ_JSON_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_JSON_iOS.framework; sourceTree = "<group>"; };
+		AEE675602088B6BE00D34367 /* KZ_JSON_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_JSON_macOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE1D293A2085D8B7007A0799 /* KZ_JSON.framework in Frameworks */,
+				AEE6755F2088B6AD00D34367 /* KZ_JSON_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE1D296F2085DB67007A0799 /* KZ_JSON.framework in Frameworks */,
+				AEE675612088B6BE00D34367 /* KZ_JSON_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +100,7 @@
 		AE1D29382085D8B7007A0799 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				AE1D29392085D8B7007A0799 /* KZ_JSON.framework */,
+				AEE6755E2088B6AD00D34367 /* KZ_JSON_iOS.framework */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -112,7 +125,7 @@
 		AE1D296D2085DB67007A0799 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				AE1D296E2085DB67007A0799 /* KZ_JSON.framework */,
+				AEE675602088B6BE00D34367 /* KZ_JSON_macOS.framework */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -145,6 +158,7 @@
 				AE1D291E2085D8A0007A0799 /* Sources */,
 				AE1D291F2085D8A0007A0799 /* Frameworks */,
 				AE1D29202085D8A0007A0799 /* Resources */,
+				AEE675552088B49200D34367 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
